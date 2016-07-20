@@ -1,0 +1,2 @@
+caption always '%{= kg} %= [ %{w}%t %{g}] %='
+hardstatus alwayslastline '%{= kw}%{g}[ %{w}%H %{g}] %= [%{m}%Y-%m-%d %{w}%c%{g}]'
