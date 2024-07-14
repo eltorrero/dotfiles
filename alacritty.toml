@@ -1,0 +1,46 @@
+import = ["~/.config/alacritty/dracula.toml"]
+working_directory = "~"
+
+[font]
+size = 12.0
+
+[font.bold]
+family = "JetBrains Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrains Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "JetBrains Mono"
+style = "Italic"
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Regular"
+
+[keyboard]
+bindings = [
+{ key = "N", mods= "Control", action = "CreateNewWindow" },
+{ key = "F11", action = "ToggleFullscreen" },
+{ key = "H", mods= "Alt", action = "Minimize" },
+]
+
+[window]
+dynamic_title = false
+# decorations = "None"
+# startup_mode = "Fullscreen"
+
+[window.dimensions]
+columns = 160
+lines 42
+
+[window.padding]
+x = 6
+y = 6
+
+[window.position]
+x = 200
+y = 120
+
