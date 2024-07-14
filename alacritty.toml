@@ -34,7 +34,7 @@ dynamic_title = false
 
 [window.dimensions]
 columns = 160
-lines 42
+lines = 42
 
 [window.padding]
 x = 6
