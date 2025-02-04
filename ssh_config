@@ -1,0 +1,7 @@
+AddKeysToAgent yes
+
+Host example.com
+    HostName 10.0.0.1
+    User root
+    IdentityFile ~/path/to/private/key
+
